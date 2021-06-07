@@ -169,7 +169,7 @@ async def skip_func(_, message):
     queue = db[chat_id]["queue"]
     if queue.empty():
         return await message.reply_text(
-            "__**Queue Is Empty, Just Like Your Life.**__", quote=False
+            "__**Queue Is Empty**__", quote=False
         )
     db[chat_id]["skipped"] = True
     await message.reply_text("__**Skipped!**__", quote=False)
@@ -231,7 +231,7 @@ async def queue_list(_, message):
     queue = db[chat_id]["queue"]
     if queue.empty():
         return await message.reply_text(
-            "__**Queue Is Empty, Just Like Your Life.**__", quote=False
+            "__**Queue Is Empty**__", quote=False
         )
     text = ""
     for count, song in enumerate(queue._queue, 1):
