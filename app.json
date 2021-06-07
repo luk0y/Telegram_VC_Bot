@@ -1,7 +1,7 @@
 {
   "name": "Telegram Voice Chat Bot",
   "description": "Telegram Voice-Chat Bot Written In Python Using Pytgcalls & Pyrogram.",
-  "repository": "https://github.com/thehamkercat/Telegram_VC_Bot",
+  "repository": "https://github.com/luk0y/Telegram_VC_Bot",
   "logo": "https://i.imgur.com/8S8NVy0.png",
   "keywords": [
     "python",
@@ -40,7 +40,7 @@
             "required": true
     },
     "ARQ_API_KEY": {
-	    "description": "Get this from @ARQRobot.",
+	    "description": "Get this from Somewhere.",
 	    "required": true
     }},
     "formation": {
